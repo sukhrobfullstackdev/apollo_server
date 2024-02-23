@@ -1,0 +1,23 @@
+{
+  "name": "apollo_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node ./dist/index.js",
+    "compile_start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Sukhrobbek Odilov",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  }
+}
